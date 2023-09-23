@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Página de Cadastro</h1>
+        
+        <!-- Título para o formulário -->
+        <h2 class="subtitulo">Cadastrar Novo Dado</h2>
+
+        <!-- Formulário de cadastro -->
+        <div id="cadastro-form" class="card">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="contato" placeholder="Contato Ex: E-mail ; Número ; Telefone">
+            <button onclick="cadastrarDado()" class="btn-cadastrar">Cadastrar</button>
+        </div>
+
+        <!-- Título para a lista de dados cadastrados -->
+        <h2 class="subtitulo">Lista de Dados Cadastrados</h2>
+
+        <!-- Lista de dados cadastrados -->
+        <div id="cadastro-list" class="card">
+            <ul id="lista-dados">
+                <!-- Aqui serão exibidos os dados cadastrados dinamicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
